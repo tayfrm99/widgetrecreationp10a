@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bento Widgets</string>
+    <string name="clock_name">Analogue clock</string>
+    <string name="clock_desc">Square analogue clock with a mechanical red second hand</string>
+    <string name="map_name">Location map</string>
+    <string name="map_desc">Where you are based, with drifting clouds and plane trails</string>
+</resources>
