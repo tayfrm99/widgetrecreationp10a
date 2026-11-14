@@ -11,6 +11,7 @@ import android.graphics.PorterDuffXfermode
 import android.graphics.RectF
 import android.graphics.Shader
 import android.graphics.Typeface
+import android.text.TextPaint
 import android.text.TextUtils
 import androidx.core.graphics.ColorUtils
 
@@ -67,7 +68,7 @@ object MapRenderer {
         c.drawCircle(px, py, r, dot)
 
         // 5. text
-        val tp = Paint(Paint.ANTI_ALIAS_FLAG)
+        val tp = TextPaint(Paint.ANTI_ALIAS_FLAG)
         val left = wf * 0.08f
         val labelBase = hf * 0.825f
         if (s.label.isNotBlank()) {
